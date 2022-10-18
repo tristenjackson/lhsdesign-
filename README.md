@@ -1,2 +1,2 @@
 # lhsdesignplus
-Matlab functions for obtaining Latin hypercube samples of 11 continuous distribution types, subject to input parameters.
+The functions found in this file serve as specialized means of obtaining a Latin hypercube sample from each of Matlab's supported continuous distribution types, subject to optional distribution parameters. This is dissimilar to Matlab's 'lhsdesign' in that this function allows the user to sample from a particular distribution type, choose appropriate distribution parameters, and select an iterative number of n x 1 runs of this sampling procedure. These functions supports a variable number of input arguments and the inputs are defined within the function according to the chosen distribution.
